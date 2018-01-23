@@ -1,0 +1,37 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
+  <link rel="stylesheet" href="./design.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class = "container fluid text-center">
+    <h1>Pomodoro Clock</h1>
+
+    <div id = "timers">
+      <div class = "line">
+        BREAK TIMER
+        <div>
+          <button class = "buttons" id = "breakTimerReduce"><i class="fa fa-arrow-down"></i></button>
+          <h3 id="breakLength">5</h3>
+          <button class = "buttons" id = "breakTimerIncrease"><i class="fa fa-arrow-up"></i></button>
+        </div>
+      </div>
+      <div class = "line">
+        SESSION LENGTH
+        <div>
+          <span></span>
+          <button class = "buttons" id = "sessionTimerReduce"><i class="fa fa-arrow-down"></i></button>
+          <h3 id="sessionLength">25</h3>
+          <button class = "buttons" id = "sessionTimerIncrease"><i class="fa fa-arrow-up"></i></button>
+        </div>
+      </div>
+    </div>
+    <div id="countdownClock">
+      <div id="currentStatus">session</div>
+      <p id="countdownTimer">25</p>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
