@@ -9,10 +9,11 @@ Task:
   (hints: always pull before you push)
 
 list of completion:
-
+  - [Shrey Jain](https://www.github.com/shreyjain711)
+  
    eg:
 
    - [Pratyush Goel](https://www.github.com/pratyush1687)
    - [Geetanshu Gupta](https://www.github.com/geetanshu2502)
    - [Yash Bansal](https://www.github.com/bansalyash)
-   - [Shrey Jain](https://www.github.com/shreyjain711)
+   
