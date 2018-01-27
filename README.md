@@ -17,4 +17,5 @@ list of completion:
    - [Pratyush Goel](https://www.github.com/pratyush1687)
    - [Geetanshu Gupta](https://www.github.com/geetanshu2502)
    - [Yash Bansal](https://www.github.com/bansalyash)
+   -[Avinash Swaminathan]( https://github.com/avinsit123)
   
