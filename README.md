@@ -10,6 +10,8 @@ Task:
 
 list of completion:
 
+- [Shruti Garg](https://github.com/gargshruti30)
+
    eg:
 
    - [Pratyush Goel](https://www.github.com/pratyush1687)
