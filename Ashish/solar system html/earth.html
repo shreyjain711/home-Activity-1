@@ -1,0 +1,61 @@
+<html>
+<title>Earth</title>
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<body background="../1080p_digital_universe_hd-HD.jpg" onload="FP_preloadImgs(/*url*/'button38.gif', /*url*/'button39.gif', /*url*/'button41.gif', /*url*/'button42.gif')">
+<font size=10 face="jokerman" color="#8000800"><center><b><u><i>Earth</i></u></b><br><br></center></font>
+<font size=5 color=#8000800>
+<p align="justify"><font size=5 face="Lucida Calligraphy">
+<b>Earth, our home planet, is the only planet in our solar system known to harbor life. 
+All of the things we need to survive are provided under a thin layer of atmosphere that separates us from the uninhabitable void of space. 
+Earth is made up of complex, interactive systems that are often unpredictable. Air, water, land, and life—including humans—combine forces to create a constantly 
+changing world that we are striving to understand.
+Viewing Earth from the unique perspective of space provides the opportunity to see Earth as a whole. Scientists around the world have discovered 
+many things about our planet by working together and sharing their findings.
+Some facts are well known. For instance, Earth is the third planet from the sun and the fifth largest in the solar system.
+ Earth's diameter is just a few hundred kilometers larger than that of Venus. 
+The four seasons are a result of Earth's axis of rotation being tilted more than 23 degrees.
+Oceans at least 2.5 miles (4 kilometers) deep cover nearly 70 percent of Earth's surface.
+ Fresh water exists in the liquid phase only within a narrow temperature span (32 to 212 degrees Fahrenheit/ 0 to 100 degrees Celsius). 
+This temperature span is especially narrow when contrasted with the full range of temperatures found within the solar system. 
+The presence and distribution of water vapor in the atmosphere is responsible for much of Earth's weather.<br>
+</b><br>
+</font></font>
+<font size=10 color=#8000800 face="jokerman">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+<font size=5 color=#8000800>
+<b><u><i><font size=10 face="jokerman" color="#8000800">
+<a href="solar%20system.html">
+<img border="0" id="img1" src="button37.gif" height="33" width="163" alt="Back" fp-style="fp-btn: Embossed Capsule 3; fp-font-color-hover: #0066FF; fp-transparent: 1" fp-title="Back" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button38.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button37.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button39.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button38.gif')"></a></font></i></u></b></font><font size=10 color=#8000800 face="jokerman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+<font size=5 color=#8000800>
+<b><u><i>
+<font size=10 face="jokerman" color="#8000800"><a href="../Earth.jpg">
+<img border="0" id="img2" src="button40.gif" height="39" width="195" alt="Click here to see the photo" fp-style="fp-btn: Embossed Capsule 2; fp-font-color-hover: #FF0000; fp-transparent: 1" fp-title="Click here to see the photo" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button41.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button40.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button42.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button41.gif')"></a></font></i></u></b><font size=5 face="Lucida Calligraphy"><br>
+</font></font><font face="Lucida Calligraphy" size=5 color=#00FFFF>
+&nbsp;</font></p>
+</body>
+</html>
+
