@@ -1,0 +1,62 @@
+<html>
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+<body background="../Space%202%20wallpapers/space%202.jpg" onload="FP_preloadImgs(/*url*/'file:///E:/Documents%20and%20Settings/Ashish/Local%20Settings/Temporary%20Internet%20Files/FrontPageTempDir/button3.gif', /*url*/'file:///E:/Documents%20and%20Settings/Ashish/Local%20Settings/Temporary%20Internet%20Files/FrontPageTempDir/button4.gif')">
+<font size=5 color="#00FFFF" face="jokerman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font><font color=#00FFFF size=10 face=jokerman>
+<b><u><i>JUPITER</i></u></b></font><font size=5 color="#00FFFF" face="jokerman"><br><br><br>
+
+Jupiter is the fifth planet from the Sun and the largest planet within the Solar System.
+ It is a gas giant with a mass slightly less than one-thousandth of the Sun but is two and a
+ half times the mass of all the other planets in our Solar System combined. Jupiter is classified as
+ a gas giant along with Saturn, Uranus and Neptune. Together, these four planets are sometimes
+ referred to as the Jovian planets.The planet was known by astronomers of ancient times 
+and was associated with the mythology and religious beliefs of many cultures. 
+The Romans named the planet after the Roman god Jupiter. When viewed from Earth, 
+Jupiter can reach an apparent magnitude of -2.94, making it on average the third-brightest 
+object in the night sky after the Moon and Venus. (Mars can briefly match Jupiter's brightness 
+at certain points in its orbit.)Jupiter is primarily composed of hydrogen with a quarter of its 
+mass being helium; it may also have a rocky core of heavier elements. Because of its rapid 
+rotation, Jupiter's shape is that of an oblate spheroid (it possesses a slight but noticeable bulge 
+around the equator). The outer atmosphere is visibly segregated into several bands at different 
+latitudes, resulting in turbulence and storms along their interacting boundaries. 
+A prominent result is the Great Red Spot, a giant storm that is known to have existed since 
+at least the 17th century when it was first seen by telescope. Surrounding the planet is a faint 
+planetary ring system and a powerful magnetosphere. 
+There are also at least 63 moons, including the four large moons called the Galilean moons 
+that were first discovered by Galileo Galilei in 1610. Ganymede, the largest of these moons, 
+has a diameter greater than that of the planet Mercury.Jupiter has been explored on several 
+occasions by robotic spacecraft, most notably during the early Pioneer and Voyager flyby 
+missions and later by the Galileo orbiter. The most recent probe to visit Jupiter was the 
+Pluto-bound New Horizons spacecraft in late February 2007. The probe used the gravity 
+from Jupiter to increase its speed. Future targets for exploration in the Jovian system include 
+the possible ice-covered liquid ocean on the moon Europa.<br>&nbsp;</font><p>
+<img border="0" id="img1" src="button2.gif" height="31" width="155" alt="Click to see photo" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button3.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button2.gif')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button4.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button3.gif')" fp-style="fp-btn: Embossed Capsule 2; fp-font-color-hover: #FFFF00; fp-transparent: 1" fp-title="Click to see photo"><font size=5 color="#00FFFF" face="jokerman"><br><br>
+<br><br><br><br>
+</p>
+
+<body onload="FP_preloadImgs(/*url*/'file:///E:/Documents%20and%20Settings/Ashish/Local%20Settings/Temporary%20Internet%20Files/FrontPageTempDir/button3.gif', /*url*/'file:///E:/Documents%20and%20Settings/Ashish/Local%20Settings/Temporary%20Internet%20Files/FrontPageTempDir/button4.gif')">
+</html>
