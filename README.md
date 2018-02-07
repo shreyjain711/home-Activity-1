@@ -11,10 +11,11 @@ Task:
 list of completion:
 
 - [Shruti Garg](https://github.com/gargshruti30)
+- [Abhinav Gupta](https://github.com/abhikudo)
 - [Ashish Kushwaha](https://github.com/ashkush21)
 - [Riya](https://github.com/riyak1998)
 - [Avinash Swaminathan]( https://github.com/avinsit123)
-- [Saurabh Mittal]( https://github.com/mittalsaurab)  
+- [Saurabh Mittal]( https://github.com/mittalsaurab)
 
    eg:
 
